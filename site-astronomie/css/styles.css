@@ -1,0 +1,168 @@
+/* **************************************************************************************************** */
+/* SKELETON */
+/* **************************************************************************************************** */
+*{margin:0;padding:0;}
+
+.inner {
+    width:1000px;
+    margin: auto; 
+    position:relative;
+    /**clear: both;**/
+}
+body{
+	font-family:"Trebuchet MS";
+	font-size: 10px;
+}
+#diapo {
+    background: url(../images/diapo.jpg) no-repeat center;
+    height: 550px;
+    background-size: cover;
+}
+#diapo header {
+    background-color: rgba(0,0,0,0.50);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    height: 160px;
+}
+#diapo ul {
+    list-style-type: none;
+}
+#diapo ul li {
+    float: left;
+    padding: 70px 25px 0px 25px;
+    text-align: center;
+}
+#diapo ul li a {
+    font-size: 20px;
+    color: #FFf;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#diapo ul li:nth-of-type(4) {
+    padding: 20px 0 0 0;
+}
+#diapo ul li a:hover {
+    color: #0000FF;
+}
+/*début bloc*/
+.bloc {
+    margin: 30px 20px 10px 20px;
+    position:relative;
+    float: left;
+    width: 200px;
+	height: 225px;
+}
+.bloc h2 {
+    position: absolute;
+    top: 15px;
+    background: rgba(0,0,0,0.50);
+    width: 200px;
+}
+.bloc h2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+.bloc h3 {
+	color: #0000FF;
+}
+.bloc p {
+    text-align: justify;
+    margin: 0 0 10px 0;
+}
+.bloc footer a {
+    background: #0000FF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    float: right;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.bloc footer a:hover {
+    background: #fff;
+    color: #0000FF;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.bloc p:nth-of-type(2) {
+	color: #0000FF;
+	font-size: 15px;
+	text-align: right;
+}
+/*fin des blocs*/
+
+/*début découverte*/
+.découverte {
+    float: left;
+    width: 50%;
+    margin: 40px 0;
+	margin-top: 175px;
+}
+.vidéo {
+    float: right;
+    width: 50%;
+    margin: 40px 0;
+	margin-top: 175px;
+}
+.découverte p{
+    margin: 0 0 10px 0;
+}
+.découverte h2{
+    margin: 0 0 10px 0;
+	font-size: inherit;
+    text-decoration: none;
+	color: #0000FF;
+}
+/*fin découverte*/
+/*début footer*/
+footer#piedpage {
+    clear: both;
+    overflow: hidden;
+    background-color: #0000FF;
+	height: 60px;
+
+}
+#piedpage #copyright {
+	margin-top: 10px;
+	width: 50%;
+	float: left;
+}
+#piedpage #info {
+	margin-top: 10px;
+	width: 50%;
+	float: right;
+}
+/*fin footer*/ 
+/*début a propos*/ 
+#vidéo2 {
+    float: left;
+    width: 50%;
+    margin: 40px 0;
+	clear: both;
+}
+#découverte2 {
+    float: right;
+    width: 50%;
+    margin: 40px 0;
+}
+#découverte2 p{
+    margin: 0 0 10px 0;
+}
+#découverte2 h2{
+    margin: 0 0 10px 0;
+	font-size: inherit;
+    text-decoration: none;
+	color: #0000FF;
+}

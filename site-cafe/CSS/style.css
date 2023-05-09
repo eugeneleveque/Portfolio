@@ -1,0 +1,359 @@
+*{margin:0;padding:0;}
+
+.inner {
+    width:1000px;
+    margin: auto; 
+    position:relative;
+    /**clear: both;**/
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+#diapo {
+    background: url(../images/fond-diapo.png) no-repeat center;
+    height: 550px;
+    background-size: cover;
+}
+#diapo header {
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    height: 160px;
+}
+#diapo ul {
+    list-style-type: none;
+}
+#diapo ul li {
+    float: left;
+    padding: 70px 25px 0px 25px;
+    text-align: center;
+}
+#diapo ul li a {
+    font-size: 20px;
+    color: #48271f;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#diapo ul li:nth-of-type(4) {
+    padding: 20px 0 0 0;
+}
+#diapo ul li a:hover {
+    color: #af6053;
+}
+#textediapo {
+    /*float: right;*/
+    color: #fff;
+    font-size: 16px;
+    margin: 50px 0 0 auto;
+    width: 300px;
+    overflow: hidden;
+}
+#textediapo header {
+    background-color: inherit;
+    box-shadow: inherit;
+    height: inherit;
+}
+#textediapo header h1 {
+    background: url(../images/grain-cafes.png) no-repeat left top;
+    padding-left: 40px;
+}
+#textediapo p {
+    padding-left: 40px;
+    margin:5px 0
+}
+#textediapo footer a {
+    background: #fff;
+    color: #48271f;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    float: right;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#textediapo footer a:hover {
+    background: #48271f;
+    color: #fff;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#flechegauche {
+    position: relative;
+    background: url(../images/fleche-gauche.png) no-repeat left;
+    width: 32px;
+    height: 49px;
+    display: inline-block ;
+
+}
+#flechedroite {
+    position: relative;
+    background: url(../images/fleche-droite.png) no-repeat right;
+    width: 32px;
+    height: 49px;
+    display: inline-block ;
+    float: right;
+}
+#flechegauche a, #flechedroite a {
+    width: 32px;
+    height: 49px;
+    display: block;
+}
+.bloc {
+    margin: 20px 20px 20px 0;
+    position:relative;
+    float: left;
+    width: 299px;
+}
+/*#info {
+    margin-bottom: 20px;
+    overflow: hidden;
+}*/
+.bloc h2 {
+    position: absolute;
+    top: 40px;
+    background: #332b22;
+    width: 220px;
+}
+.bloc h2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+#info .bloc h2 {
+    position: relative;
+    color: inherit;
+    top: inherit;
+    background-color: inherit;
+    width: inherit;
+    margin-bottom: 20px;
+}
+.alignleft {
+    float: left;
+    margin: 0 0 10px 20px;
+}
+
+.alignright {
+    float: right;
+    margin: 0 20px 10px 0;
+}
+.bloc p {
+    text-align: justify;
+    margin: 0 0 10px 0;
+}
+.bloc .date {
+    position: relative;
+
+    background: #fff;
+    width: 260px;
+    padding: 10px;
+}
+/*footer*/
+#info footer a {
+    background: #48271f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    float: right;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#info footer a:hover {
+    background: #fff;
+    color: #48271f;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+/*footer*/
+footer#piedpage {
+    clear: both;
+    overflow: hidden;
+    background-color: #332b22;
+}
+footer#piedpage .bloc {
+    border-right: 1px solid #fff;
+    padding: 5px;
+    height:150px;
+}
+#piedpage .bloc:nth-of-type(3) {
+    border:none;
+}
+#piedpage .bloc h2 {
+    position: relative;
+    color: inherit;
+    top: inherit;
+    background-color: inherit;
+    width: inherit;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#piedpage .bloc ul {
+    color: #fff;
+    list-style-type: square;
+}
+#piedpage .bloc:nth-of-type(3) ul {
+    list-style-type: none;
+    padding: 5px !important;
+    margin: 0 0 20px 0;
+}
+#piedpage .bloc ul li {
+    padding: 5px;
+    font-size: 14px;
+}
+#piedpage .bloc ul li a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#piedpage .bloc ul li a:hover {
+    color: #af6053;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#piedpage .bloc p {
+    color: #fff;
+    text-align: justify;
+    margin: 0 0 10px 0;
+}
+#piedpage .bloc input[type=text] {
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    color: #332b22;
+}
+#piedpage .bloc input[type=text]::placeholder{
+    color: #ff0000;
+}
+#piedpage .bloc input[type=submit] {
+    background-color: rgba(237,162,69,1,0.7);
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer; /*curseur pointeur*/
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+
+}
+#piedpage .bloc input[type=submit]:hover {
+    background-color: gba(237,162,69,0.5);
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#piedpage .bloc:nth-of-type(3) ul li {
+    float: left;
+}
+#piedpage #copyright {
+    clear: both;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+/****style page a-propos****/
+
+#apropos {
+    height: 550px;
+    background-size: cover;
+}
+#apropos header {
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0,0.4);
+    height: 160px;
+}
+#apropos ul {
+    list-style-type: none;
+}
+#apropos ul li {
+    float: left;
+    padding: 70px 25px 0px 25px;
+    text-align: center;
+}
+#apropos ul li a {
+    font-size: 20px;
+    color: #48271f;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#apropos ul li:nth-of-type(4) {
+    padding: 20px 0 0 0;
+}
+#titre {
+    background-color: #af6053;
+    padding: 40px 0;
+}
+#titre h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.blocgauche {
+    float: left;
+    width: 50%;
+    margin: 40px 0;
+}
+.blocdroit {
+    float: right;
+    width: 50%;
+    margin: 40px 0;
+}
+.blocgauche img, .blocdroit img {
+    width: 100%;
+}
+#apropos h2 {
+    color: #af6053;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+#apropos .blocdroit footer a {
+    background: #48271f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    float: right;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#apropos .blocdroit footer a:hover {
+    background: #fff;
+    color: #48271f;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}

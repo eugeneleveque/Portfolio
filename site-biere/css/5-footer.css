@@ -1,0 +1,91 @@
+/* **************************************************************************************************** */
+/* FOOTER */
+/* **************************************************************************************************** */
+
+
+footer#mainfooter {
+    background: url(../images/footer-content.jpg) repeat-x;
+    overflow: hidden;
+    clear: both;
+}
+.footertext {
+    position: relative;
+    float: left;
+    width: 33%;
+    color:#fff;
+}
+.footertext h2 {
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+.footertext ul {
+    list-style-type: none;
+    padding-top: 10px;
+    color: #cfcfcf;
+}
+.footertext ul li {
+    background: url(../images/carre.jpg) no-repeat 0 4px;
+    padding: 0 0 0 15px;
+    margin: 5px 0;
+}
+.footertext ul li a {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+.footertext input[type=text] {
+    background: url(../images/newsletter.png) no-repeat;
+    width: 219px;
+    padding: 10px 0 10px 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.footertext input[type=text]::placeholder {
+    color: #fff;
+}
+.footertext input[type=submit] {
+    background: url(../images/button-trans.png) no-repeat;
+    color: #fff;
+    width: 73px;
+    height: 33px;
+    float: right;
+    margin: 0 50px 10px 0;
+}
+#testimonials {
+    background: url(../images/footer-temoignage.jpg) no-repeat;
+    clear: both;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+}
+#testimonials .quoteopen {
+    background: url(../images/quotes_open.png) no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+}
+#testimonials .quoteclose {
+    background: url(../images/quotes_close.png) no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-left: 10px;
+}
+.auteur {
+    text-align: right;
+    font-size: 12px;
+}
+#copyright {
+    background: #323232;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #f2cc0f;
+    padding: 10px 0;
+}
+#copyright a {
+    color: #f2cc0f;
+}

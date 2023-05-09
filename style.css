@@ -1,0 +1,311 @@
+*{margin:0;padding:0;}
+
+.inner {
+    width:1000px;
+    margin: auto; 
+    position:relative;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 2292px;
+
+}
+
+/* fond */
+
+#accueil {
+    background: url(./fond-header.jpg) no-repeat center;
+    height: 550px;
+    background-size: cover;
+}
+
+/* menu */
+
+#navbar{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+  }
+#navbar {
+    background-color: rgba(102, 0, 161, 0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+#navbar nav ul {
+    list-style-type: none;
+}
+#navbar nav ul li {
+    float: left;
+    padding: 25px 130px 0px 35px;
+    text-align: center;
+}
+#navbar nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    scroll-behavior: smooth;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+/* sous le menu */
+
+#textaccueil {
+    color: #fff;
+    font-size: 25px;
+    overflow: hidden;
+}
+#textaccueil header {
+    background-color: inherit;
+    box-shadow: inherit;
+    height: inherit;
+}
+#textaccueil header h1 {
+    padding: 160px 0px 30px 0px;
+}
+#textaccueil footer a {
+    background: #fff;
+    color: rgba(102, 0, 161);
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 65px 100px;
+    float: right;
+    font-size: 20px;
+    border-radius : 10px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#textaccueil footer a:hover {
+    background: rgba(102, 0, 161);
+    color: #fff;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+/* profil */
+
+#profil #main-left {
+    width: 500px;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profil #main-right {
+    background-color: #ffff;
+    width: 500px;
+    float: left;
+    margin-top: 0%;
+}
+#profil h2{
+    text-align: center;
+    padding: 5px;
+    margin: 40px 0 20px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#profil #main-right p {
+    margin: 10px 0 20px 10px;
+    font-size: 15px;
+    
+}
+#profil #main-left img {
+    margin-top: 130px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #041535;
+    border-radius: 25px 25px 25px 25px;
+}
+
+/* proverbe */
+
+#proverbe {
+    clear: both;
+    margin-top: 420px;
+    background: url(./fond-proverbe.jpg) no-repeat center;
+    height: 200px;
+    background-size: cover;
+}
+#proverbe p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#proverbe #source {
+    color: #C0C0C0;
+}
+
+/* compétence */
+
+#competence {
+    clear: both;
+}
+#competence h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px 0 20px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#competence header p {
+    text-align: center;
+    font-size: 15px;
+}
+#competence #main-left2 {
+    margin: 20px 0 20px 10px;
+    font-size: 15px;
+    width: 500px;
+    float: left;
+}
+#competence #main-left2 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+#competence #main-left2 p {
+    margin: 5px 0 5px 0;
+}
+#competence #main-left2 progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+     width: 100%;
+  }
+#competence #main-left2 progress[value]::-webkit-progress-value {
+    background-color: rgba(102, 0, 161);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+#competence #main-left2 progress[value]::-webkit-progress-bar {
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+#competence #main-right2 img{
+    width: 400px;
+    height: 518px;
+}
+#competence #main-right2 {
+    margin: 40px 10px 20px 20px;
+    float: right;
+}
+#competence #main-right2 footer a {
+    background: rgba(102, 0, 161);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 40px 94px 1px 94px ;
+    float: right;
+    font-size: 20px;
+    border-radius : 10px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+#competence #main-right2 a:hover {
+    background: black;
+    color: #fff;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+#separateur .inner {
+    clear: both;
+    padding-top: 40px;
+    border: solid rgba(102, 0, 161);
+    border-width: 0px 0px 4px 0px;
+}
+
+/* portfolio */
+
+#portfolio {
+    clear: both;
+}
+#portfolio h2 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 20px 0 20px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#portfolio p {
+    text-align: center;
+    font-size: 15px;
+}
+.bloc {
+    margin: 20px 20px 20px 14px;
+    position:relative;
+    float: left;
+    width: 299px;
+}
+.bloc img {
+    width: 300px;
+    border: solid black;
+}
+.bloc h3 {
+    position: absolute;
+    top: 40px;
+    background: rgba(102, 0, 161);
+    width: 100px;
+}
+.bloc h3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+.bloc2 {
+    clear: both;
+    margin: 20px 20px 50px 14px;
+    position:relative;
+    float: left;
+    width: 299px;
+}
+.bloc2 img {
+    width: 300px;
+    border: solid black;
+}
+.bloc2 h3 {
+    position: absolute;
+    top: 40px;
+    background: rgba(102, 0, 161);
+    width: 100px;
+}
+.bloc2 h3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+/* footer */
+footer#piedpage {
+    clear: both;
+    overflow: hidden;
+    background-color: rgba(102, 0, 161);
+	height: 60px;
+}
+#piedpage #copyright {
+	margin-top: 20px;
+	text-align: center;
+    font-size: 20px;
+    color: white;
+}

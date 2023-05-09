@@ -1,0 +1,20 @@
+/* **************************************************************************************************** */
+/* HEADER */
+/* **************************************************************************************************** */
+#main-header {
+    background: url("../images/header-fond.jpg") repeat-x;
+}
+#main-header .inner {
+    background: url("../images/header-image.png") no-repeat;
+    background-position: right 7px;
+}
+#logo {
+    padding-top: 40px;
+}
+#baseline {
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+/* **************************************************************************************************** */
+/* MENU */
+/* **************************************************************************************************** */
+#main-menu {
+    margin: 20px auto;
+}
+#main-menu ul{
+    list-style-type: none;
+}
+#main-menu ul li {
+    position: relative;
+    width: 196px;
+    height: 200px;
+    float: left;
+    margin: 0 1px;
+    
+}
+#main-menu ul li a {
+    display: block;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    -webkit-transition: all 0,5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0,5s 0s ease;
+    transition: all 0,5s 0s ease;
+}
+#main-menu ul li a:hover {
+    color: #f2cc0f;
+    -webkit-transition: all 0,5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0,5s 0s ease;
+    transition: all 0,5s 0s ease;
+}
+#main-menu ul li:nth-of-type(1) {
+    background: url(../images/menu-1.jpg) bottom center no-repeat;
+}
+#main-menu ul li:nth-of-type(2) {
+    background: url(../images/menu-2.jpg) bottom center no-repeat;
+}
+#main-menu ul li:nth-of-type(3) {
+    background: url(../images/menu-3.jpg) bottom center no-repeat;
+}
+#main-menu ul li:nth-of-type(4) {
+    background: url(../images/menu-4.jpg) bottom center no-repeat;
+}
+#main-menu ul li:nth-of-type(5) {
+    background: url(../images/menu-5.jpg) bottom center no-repeat;
+}
+#main-menu ul li ul.submenu {
+    background:url(../images/submenu.png) repeat;
+    position: absolute; 
+    top: 25px;
+    left: 5px;
+    width: 186px;
+    height: 160px;
+    display: none;
+}
+#main-menu ul li ul.submenu li {
+    background: url(../images/carre.jpg) no-repeat;
+    width: auto;
+    height: auto;
+    float: none;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+#main-menu ul li ul.submenu a {
+    height: auto;
+    text-transform: inherit;
+    text-align: left;
+}
+#main-menu ul li:hover > ul.submenu {
+    display: block;
+}

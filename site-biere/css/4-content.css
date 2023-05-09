@@ -1,0 +1,175 @@
+/* **************************************************************************************************** */
+/* CONTENT - GENERAL */
+/* **************************************************************************************************** */
+#main-left {
+    width: 560px;
+    float: left;
+}
+#main-left h1 {
+    font-size:18px;
+    font-weight:bold;
+    border-bottom:1px solid#f2cc0f;
+    margin: 10px 0;
+}
+#main-left p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+#main-left footer {
+    text-align: right;
+}
+#main-left footer a {
+    text-decoration: none;
+    background: url(../images/plus.png) no-repeat top right;
+    padding: 5px 20px 0 0;
+}
+#main-bottom-left h2 {
+    font-size:18px;
+    font-weight:bold;
+    background: url(../images/h2.png) repeat-x bottom;
+    margin: 15px 0;
+    padding: 0 0 15px 0;
+}
+#main-bottom-left #cadre {
+    background: url(../images/carte-cadre.png) no-repeat;
+    float: right;
+    width: 290px;
+    height : 271px;
+}
+#main-bottom-left #cadre #textencadre {
+    margin: 25px 30px 30px 30px;
+}
+#main-bottom-left #cadre #textencadre p {
+    font: size 15px;
+    line-height: 18px;
+}
+#main-right {
+    width: 400px;
+    height:500px;
+    float: right;
+    margin: 10px 0 0 0;
+    background: #f3EEE8;
+}
+#main-right h2 {    
+    font-size:18px;
+    font-weight:bold;
+    border-bottom:1px solid#f2cc0f;
+    margin: 10px 0;
+}
+#main-right h3 {
+    font-weight: bold;
+    font-size: 11px;
+    margin:10px 0 10px 0;
+}
+#main-right .date {
+    margin:0 0 5px 0;
+}
+#main-right p {
+    margin:0 0 5px 0;
+}
+#main-right article footer {
+    background: url(../images/h2.png) repeat-x bottom;
+    padding-bottom:15px;
+}
+#main-right article footer a {
+    background: url(../images/plus.png) no-repeat top right;
+    display: block;
+    width: 14px;
+    height: 20px;
+    float: right;
+    margin: 0 0 0 50px;
+    background-color: #f3EEE8;
+    padding-right: 50px;
+}
+
+#products {
+    clear:both;
+    background: url(../images/products.png) repeat-x;
+    overflow: hidden;
+}
+#products h2 {
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+}
+.products {
+    width: 210px;
+    float: left;
+    margin-top: 12px;
+}
+.products h3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+}
+.imageproduct {
+    text-align: center;
+    padding: 10px;
+    background: #d7d3C5;
+    width: 170px;
+    margin: 0 auto 15px auto;
+}
+.fond {
+    background: url(../images/product-fond.png) no-repeat;
+    width: 290px;
+}
+.products ul {
+    list-style: none;
+    margin: 0 0 12px 15px;
+}
+.products ul li {
+    margin: 0 0 5 0px;
+}
+.fond ul {
+    margin: 0 0 0 50px;
+}
+/**début page qui sommes nous**/
+
+#quisommesnous #main-left {
+    width: 500px;
+    float: left;
+}
+
+#quisommesnous #main-right {
+    background-color: #ffff;
+    width: 500px;
+    float: left;
+    margin-top: 0%;
+}
+#quisommesnous #main-right h2{
+    
+    padding: 5px;
+    margin: 20px 0 20px 10px;
+    border-bottom: solid #f2CC0F;
+    font-size: 18px;
+}
+#quisommesnous #main-right p {
+    margin: 20px 0 20px 10px;
+    text-align: justify;
+}
+#quisommesnous #main-left img {
+    margin: 20px 0 20px 0;
+}
+#quisommesnous #main-right footer {
+    background-color: #f2CC0F;
+    text-align: center;
+    /*** METTRE LE BOUTON AU MILIEU ***/
+    margin:0 auto ;
+    width: 50%;
+}
+#quisommesnous #main-right footer a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px; 
+    display: block;
+    border: #f2cc0f 1px solid;
+    padding: 10px 15px;
+
+}
+#quisommesnous #main-right footer a:hover {
+    color: #f2CC0F;
+    background-color: #ffff;
+    border: #f2cc0f 1px solid;
+    transition: all 0,5s 0s ease;
+}
