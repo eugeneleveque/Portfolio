@@ -323,12 +323,12 @@ footer#piedpage .bloc {
     float: left;
     width: 50%;
     margin: 40px 0;
+    clear: both;
 }
 .blocdroit {
     float: right;
     width: 50%;
     margin: 40px 0;
-    clear: both;
 }
 .blocgauche img, .blocdroit img {
     width: 100%;
